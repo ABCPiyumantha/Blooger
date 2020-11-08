@@ -1,0 +1,317 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+}
+/******************** Navigation *****************/
+.navbar{
+    padding: 1% 2%;
+}
+.navbar-nav{
+    margin: auto auto;
+}
+.nav-item{
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fab{
+    margin: 0 2px;
+}
+
+.fa-facebook-f:hover{
+    border: 2px solid black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;   
+    padding-bottom: 2px;
+    color: rgb(14, 14, 184);
+    
+    border-color: rgb(14, 14, 184);
+}
+.fa-instagram:hover{
+    border: 2px solid black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;  
+    padding-bottom: 2px;
+    color: #E1306C;
+    border-color: #E1306C;
+}
+.fa-twitter:hover{
+    border: 2px solid black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;  
+    padding-bottom: 2px;
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.fa-youtube:hover{
+    border: 2px solid black;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;  
+    padding-bottom: 2px;
+    color: red;
+    border-color: red;
+}
+
+/******** X *********** Navigation ********* X *******/
+
+/********************** header ***********************/
+
+.header{
+    background-image: url("Background-image.png");
+    height: 800px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.headerText{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 25%;
+    color: white;
+    text-align: center;
+}
+
+.btn-info{
+    margin-top: 10px;
+}
+/********* X *********** header ************* X ********/
+
+/*********************** Carousal *********************/
+@media (max-width:900px){
+    .Carousal{
+        display: none;
+    }
+    .Mobile{
+        
+        padding: 0 10%;
+        display: initial;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    .card{
+        background-color: transparent;
+        margin: auto auto;
+    }
+    .row,.col{
+        background-color: transparent;
+    }
+}
+
+@media (min-width:900px){
+    .Mobile{
+        display: none;
+    }
+}
+
+.row{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.card{
+    margin: auto auto;
+}
+.Carousal{
+    background-image: url("Abract01.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.item{
+    margin: 0 ;
+    padding: 15% 15%;
+}
+
+/********** X *********** Carousal ********** X *********/
+
+/************************ Section 01 *******************/
+.col-01{
+    text-align: left;
+}
+
+.col-01 img{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.p1 ,.p2{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.roundCorners{
+    
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5%;
+    width: 70%;
+    background-image: linear-gradient(to right, rgb(122, 228, 247), rgba(1, 12, 15, 0));
+    border-radius: 25px;
+    margin: 15px 0 0 30px;
+    height: 40px;
+}
+.p1{
+    width: 20%;
+    margin-right: 50%;
+}
+
+
+
+
+
+.categories h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.categories{
+    margin-bottom: 30%;
+}
+
+.popularPost img{
+    width: 80%;
+}
+.popularPost h3{
+    font-family: 'Ubuntu', sans-serif;
+    
+    margin-bottom: 15%;
+    text-align: left;
+}
+.popularPost p{
+    margin-top: 8%;
+   text-align: left;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+.date{
+    background-color:white;
+    width: 40%;
+    position: absolute;
+    top: 22.75%;
+    margin-left: 7%;
+    height: 20px;
+    padding-bottom: 2px;
+}
+
+@media(max-width:1415px){
+    .date{
+        display: none;
+    }
+}
+
+hr{
+    height: 5px;
+}
+
+.newsLetter{
+    margin-top: 40%;
+    margin-bottom: 20%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btntag{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.popularH1{
+    margin-bottom: 30px;
+}
+
+.btn-light:active{
+    border: 1px solid chocolate;
+}
+
+.btnLove{
+    background-color: #ff0066;
+}
+
+.btnLove:hover{
+    background-color:  #cc0052;
+    
+}
+
+/*********** X *********** Section 01 ********* X *********/
+
+/************************* Footer *************************/
+.footer{
+
+    background-color: black;
+}
+.footer .row{
+    background-color: black;
+    color: white;
+    padding:5% 5%;
+    text-align: left;
+}
+
+.footer p{
+    color: rgb(99, 98, 98);
+}
+
+.footer{
+    padding: 0;
+    margin: 0;
+}
+#emailFooter{
+    background-color: transparent;
+    border: none;
+}
+
+#emailFooter:focus{
+    background-color: transparent;
+}
+#emailBtn{
+    border: none;
+    
+}
+
+.imgFoot{
+    width: 100%;
+}
+.fIcon{
+    padding: 5px;
+}
+
+.copyright{
+    color: rgb(99, 98, 98); 
+    text-align: center;
+}
+/********** X ************ Footer *********** X ***********/
+
+/************* ZoomEffect **********************/
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+/*******X******* ZoomEffect ********X************/
